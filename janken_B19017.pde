@@ -20,4 +20,3 @@ void mouseReleased() {
   } else if (mouseX>300 && mouseX <= 450 && mouseY >=0 && mouseY <= 150) {
     board.updateResultArea(game.getJankenResult("Pa"));
   }
-}
